@@ -1,0 +1,927 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap');
+
+/*Fuentes de titulos 
+font-family: 'Mate SC', serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;*/
+
+/*FUENTES DE PARRAFOS
+font-family: 'Hind Vadodara', sans-serif;
+font-family: 'Assistant', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Aspectos generales de todas las paginas*/ 
+
+body {
+    background-color:#fff1e6; 
+}
+
+h1 {
+    font-family: 'Mate SC', serif;
+    font-size: 50px;
+    color: #223843;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-family:'Mate SC', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff1e6;
+    width: 100%;
+}
+
+h3 {
+    font-family:'Mate SC', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff1e6;
+    width: 100%;
+}
+
+h4 {
+    font-family:'Mate SC', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff1e6;
+    width: 100%;
+}
+
+h5 { 
+    font-family:'Mate SC', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fff1e6;
+    width: 100%;
+}
+
+h6 {
+    font-family:'Mate SC', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fff1e6;
+    width: 100%;
+}
+
+.titulos {
+    background-color: #223843;
+    color: #fff1e6;
+}
+
+p {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 20px;
+}
+
+main {
+    padding: 0;
+}
+
+footer {
+    background-color: #223843;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0;
+    width: 100%;
+}
+
+/*Barra de navegacion*/
+
+header{
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+    background: radial-gradient(circle, rgba(255,241,230,1) 10%, rgba(232,219,200,1) 87%);
+    width: 100%;
+}
+
+.linksNavegacion {
+    background-color: #e8dbc8;
+    border-radius: 30px;
+    width: 60%;
+    -webkit-box-shadow: 4px 7px 37px -2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 4px 7px 37px -2px rgba(0,0,0,0.6);
+    box-shadow: 4px 7px 37px -2px rgba(0,0,0,0.6);
+    list-style: none;
+    margin-right: 5rem;
+}
+
+#ancorNav {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: black;
+} 
+
+#ancorNav:hover {
+    color: #ff0a54; 
+    transition: 0.8s;
+}
+
+.logoPrincipal {
+    border-radius: 8px; 
+    height: 60px;
+    width: 7rem;
+    margin-left: 2rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+/*CSS DEL INDEX DE LA PAGINA*/
+
+
+/* Titulo principal con imagen de fondo*/
+
+.seccionCarrusel{
+    margin-top: 2rem;
+    }
+
+.fondosIndex {
+    height: 96vh;
+    background: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.fondosIndex::before {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.4;
+}
+
+.tituloFondo{
+    margin-bottom: 2rem;
+} 
+
+.titulosImagenFondo {
+    color: white;
+    font-size: 40px;
+}
+
+.botonFondo1 {
+    background-color: salmon;
+    color: white;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 20px;
+    border: black solid 2px;
+    font-size: 15px;
+}
+
+
+/*Seccion sobre mi*/ 
+
+.seccionSobreMi {
+    padding: 0;
+}
+
+.tituloSobreMi {
+    margin-top: 2rem;
+}
+.sobreMiImg {
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.fotoNutricionista {
+    height: 25rem;
+    width: 20rem;
+}
+
+.sobreMiTexto{ 
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 20px;
+    height: fit-content;
+} 
+
+/* Servicios*/ 
+
+.seccionServicios {
+    height: 90vh;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.imagenesServicios a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagenesServicios p {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.imgServicios{
+    width: 300px;
+    height: 200px;
+}
+.imagenesServicios img:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+/*Contacto*/ 
+
+.contenedorContacto {
+    width: 100%;
+}
+.tituloConsultorio {
+    background-color: #fff1e6;
+    color: #223843;
+}
+
+.mapaConsultorio{
+    width: 500px;
+    height: 400px;
+}
+
+.direccionConsultorio {
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    align-self: center;
+}
+
+
+/*Footer*/ 
+
+.botonWhatsapp {
+    width: 7rem;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+}
+
+/*CSS PAGINA SOBRE MI*/
+
+.titPagSobreMi {
+    margin-top: 5rem;
+}
+
+.porQueNutricion{
+    margin-top: 3rem;
+}
+.sobreMi1 {
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+.textoSobreMi {
+    text-align: center;
+}
+.fotoSobreMi1 {
+    height: 25rem;
+    width: 20rem;
+    margin: 2rem 0;
+}
+
+.sobreMi2 {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.fotoCemic {
+    height: 15rem;
+    width: 25rem;
+}
+
+.sobreMi3 {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.garrahan {
+    height: 25rem;
+    width: 20rem;
+    margin: 2rem 0;
+}
+
+/* CSS PAGINA PLANES DE ALIMENTACIÓN */
+
+.titPlanes {
+    margin-top: 5rem;
+}
+
+.planesSeccion1 {
+    flex-wrap: wrap;
+    align-items: center;
+    margin:3rem;
+    width: 100%;
+}
+
+.juliAtendiendo {
+    width: 30rem;
+}
+.textosPlanes{
+    text-align: center;
+    margin-top: 2rem;
+}
+.listaDePlanes ul li {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+}
+
+.planesSeccion2 {  
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem;
+    width: 100%;
+}
+
+.planesImg2 {
+    height: 20rem;
+    width: 35rem;
+}
+
+.planesSeccion3 {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem;
+    width: 100%;
+}
+
+.planesImg3 {
+    height: 20rem;
+    width: 35rem;
+}
+
+.planesSeccion4 {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem;
+    width: 100%;
+}
+
+.planesImg4 {
+    height: 20rem;
+    width: 35rem;
+}
+
+.h3Consultorio {
+    margin-top: 3rem;
+}
+
+.mapaConsultorio2 {
+    width: 100%;
+    height: 400px;
+}
+
+.textoMapa {
+    text-align: center;
+}
+
+.otrosServicios {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem;
+    width: 100%;
+}
+
+.otrosServicios a {
+    text-decoration: none;
+    color: black;
+}
+
+.otrosServicios a p:hover {
+    color: #ff0a54;
+    transition: 1s;
+}
+
+.otrosServicios p {
+    margin: 1rem;
+    text-align: center;
+    font-size: 23px;
+}
+
+.imgOtrosServicios {
+    width: 300px;
+    height: 200px;
+}
+
+
+/*CSS PAGINA ANTROPOMETRIAS*/
+
+.tituloAntropometria {
+    margin-top: 5rem;
+}
+
+.antroFotoIzquierda {
+    flex-wrap: wrap;
+    margin: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.fotoAntro {
+    width: 25rem;
+    height: 15rem;
+}
+
+.antroFotoADerecha {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem;
+    width: 100%;
+}
+
+.fotoGrasa {
+    width: 25rem;
+    margin-left: 2rem;
+}
+
+.tituloMasaMuscular {
+    margin-bottom: 3rem;
+}
+
+.fotoMusculo {
+    width: 25rem;
+    margin-right: 2rem;
+}
+
+.textosAntro{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.textoMasaMuscular {
+    align-self: center;
+}
+
+
+/*CSS PAGINA TALLERES DE ALIMENTACIÓN*/ 
+
+.tituloTalleres {
+    margin-top: 5rem;
+}
+.talleresFotoIzquierda {
+    flex-wrap: wrap;
+    margin: 2rem;
+    align-items: center;
+}
+
+.imgTalleres1 {
+    width: 25rem;
+}
+
+.talleresFotoDerecha {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem;
+}
+
+.imgTalleres2 {
+    width: 30rem;
+}
+
+.imgTalleres3 {
+    width: 30rem;
+}
+
+.textosTalleres {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/*CSS PAGINA DE RESERVAR EL TURNO*/
+
+.tituloReserva{
+    margin-top: 6rem;
+}
+
+.contenedorReservas {
+    width: 100%;
+}
+
+.cajaReservas {
+    width: 40%;
+}
+
+.cajaReservas form {
+    margin-bottom: 3rem;
+}
+
+.reservas {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #223843;
+    border-radius: 30px;
+}
+
+.reservas input {
+    width: 60%;
+    height:1.5rem;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: white;
+    background-color: #223843;
+    border: none;
+    border-bottom: solid 1px white;
+    padding: 0.6rem;
+}
+
+.reservas input:focus {
+    outline: none;
+    font-family:'Hind Vadodara', sans-serif;
+    font-size: 15px;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.reservas label {
+    font-size: 15px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.mapa1 {
+    align-self: center;
+    width: 25rem;
+}
+
+.mapa1 h2 {
+    background-color: #fff1e6;
+    color: #223843;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.h2Consultorio {
+    margin-top: 3rem;
+}
+
+.mapa1 p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 1rem;
+}
+
+/*CSS PAGINA DE RECETAS*/ 
+
+.tituloRecetas {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.recetasParteIzquierda {
+    flex-wrap: wrap;
+    margin: 2rem;
+    align-items: center;
+}
+
+.videoPanIntegral {
+    height: 300px;
+    width: 400px;
+}
+
+.recetasParteDerecha {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem;
+}
+
+.videoPizzaZanahoria {
+    height: 300px;
+    width: 400px;
+}
+
+
+/*MEDIA QUERY CELULARES INDEX */
+
+@media only screen and (max-width: 480px) {
+    .logoPrincipal {
+        height: 50px;
+        width: 6rem;
+    }
+    .seccionCarrusel{
+    margin-top: 4rem;
+    }
+    .titulosImagenFondo {
+        font-size: 30px;
+    }
+    .botonFondo1{
+        padding: 0.2rem 1rem;
+        font-size: 12px;
+    }
+    .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto, .fondosIndex{
+        height: auto;
+    }
+    .tituloFondo {
+        height: 5rem;
+    }
+    .sobreMiTexto {
+        font-size: 18px;
+    }
+    .fotoNutricionista {
+        height: 18rem;
+        width: 15rem;
+    }
+    .imagenesServicios {
+        margin-top: 1rem;
+    }
+    .imgServicios {
+        width: 250px;
+        height: 150px;
+    }
+    .imagenesServicios p {
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    .mapaConsultorio{
+        width: 300px;
+        height: 250px;
+    }
+    .pieDePagina p{
+        font-size: 15px;
+    }
+    .botonWhatsapp {
+        width: 5.5rem;
+    }
+}
+
+/*MEDIA QUERY TABLET INDEX*/
+
+
+@media (min-width:481px) and (max-width: 980px) {
+    .logoPrincipal {
+        height: 50px;
+        width: 6rem;
+    }
+    .seccionCarrusel{
+    margin-top: 2rem;
+    } 
+    .titulosImagenFondo {
+        font-size: 30px;
+    }
+    .botonFondo1{
+        padding: 0.2rem 1rem;
+        font-size: 12px;
+    }
+    .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto, .fondosIndex{
+        height: auto;
+    }
+    .tituloFondo {
+        height: 5rem;
+    }
+    .sobreMiTexto {
+        font-size: 18px;
+    }
+    .imagenesServicios {
+        margin-top: 1rem;
+    }
+    .imgServicios {
+        width: 250px;
+        height: 150px;
+    }
+    .imagenesServicios p {
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    .mapaConsultorio{
+        width: 300px;
+        height: 250px;
+    }
+    .pieDePagina p{
+        font-size: 15px;
+    }
+}
+
+/*CELULARES SOBRE MI*/ 
+
+@media only screen and (max-width: 480px) {
+    .sobreMi1 {
+        height: auto;
+    }
+    .textoSobreMi {
+        font-size: 15px;
+        margin: 1rem;
+    }
+    .fotoSobreMi1 {
+        height: 18rem;
+        width: 15rem;
+    }
+}
+
+/*TABLET SOBRE MI*/
+
+@media (min-width:481px) and (max-width: 1000px) {
+    .sobreMi1 {
+        height: auto;
+    }
+    .textoSobreMi {
+        margin: 1rem;
+        font-size: 17px;
+    }
+}
+
+/*CELULARES PLANES DE ALIMENTACIÓN*/ 
+
+@media only screen and (max-width: 480px){
+    .textosPlanes {
+        font-size: 17px;
+    }
+    .listaDePlanes ul li {
+        font-size: 19px;
+    }
+    .titulos {
+        font-size: 30px;
+    }
+    .planesImg2 {
+        height: 12rem;
+        width: 25rem;
+    }
+    .planesImg3 {
+        height: 12rem;
+        width: 25rem;
+    }
+    .planesImg4 {
+        height: 12rem;
+        width: 25rem;
+    }
+    .cajaReservas {
+        width: 100%;
+    }
+    .mapaConsultorio2{
+        height: 250px;
+    }
+    .imgOtrosServicios {
+    width: 250px;
+    height: 150px;
+    }
+    .otrosServicios p{
+        font-size: 18px;
+    }
+    .textoMapa {
+        font-size: 17px;
+    }
+}
+
+/*TABLET PLANES DE ALIMENTACION*/
+
+@media (min-width:481px) and (max-width: 1000px) {
+    .textosPlanes {
+        font-size: 17px;
+    }
+    .listaDePlanes ul li {
+        font-size: 19px;
+    }
+    .titulos {
+        font-size: 28px;
+    }
+    .planesImg2 {
+        height: 12rem;
+        width: 25rem;
+    }
+    .planesImg3 {
+        height: 12rem;
+        width: 25rem;
+    }
+    .planesImg4 {
+        height: 12rem;
+        width: 25rem;
+    }
+    .cajaReservas {
+        width: 80%;
+    }
+    .mapaConsultorio2{
+        height: 250px;
+    }
+    .imgOtrosServicios {
+    width: 250px;
+    height: 150px;
+    }
+    .otrosServicios p{
+        font-size: 18px;
+    }
+    .textoMapa{
+        font-size: 19px;
+    }
+}
+
+/* CELULAR ANTROPOMETRIA*/ 
+
+@media only screen and (max-width: 480px) {
+    .tituloAntropometria {
+        font-size: 35px;
+    }
+    .fotoAntro {
+        width: 18rem;
+        height: 12rem;
+    } 
+    .textosAntro{
+        font-size: 17px;
+    }
+    .fotoGrasa {
+        width: 15rem;
+        height: 13rem;
+        margin-left: 2rem;
+    }
+    
+    .tituloMasaMuscular {
+        margin-bottom: 1rem;
+    }
+    
+    .fotoMusculo {
+        width: 20rem;
+        margin-left: 2rem;
+    } 
+}
+
+/*TABLET ANTROPOMETRIA*/
+
+@media (min-width:481px) and (max-width: 1000px) {
+    .tituloAntropometria {
+        font-size: 35px;
+    }
+    .fotoAntro {
+        width: 22rem;
+        height: 14rem;
+    } 
+    .textosAntro{
+        font-size: 17px;
+    }
+    .fotoGrasa {
+        width: 18rem;
+        height: 13rem;
+        margin-left: 2rem;
+        border-radius: 6%;
+    }
+    
+    .tituloMasaMuscular {
+        margin-bottom: 1rem;
+    }
+    
+    .fotoMusculo {
+        width: 20rem;
+        margin-left: 2rem;
+    } 
+}
+
+/* CELULAR TALLERES DE ALIMENTACION*/ 
+
+@media only screen and (max-width: 480px){
+    .tituloTalleres {
+        margin-top: 5rem;
+        font-size: 35px;
+    }
+    .imgTalleres1 {
+        width: 20rem;
+    }
+
+    .textosTalleres {
+        font-size:17px;
+    }
+
+    .imgTalleres2 {
+        width: 30rem;
+    }
+
+    .imgTalleres3 {
+        width: 30rem;
+    }
+}

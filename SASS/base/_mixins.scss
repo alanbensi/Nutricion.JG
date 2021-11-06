@@ -1,0 +1,4 @@
+@mixin titulosPrincipales ($tipografia, $colorTitulo,) {
+    font-family: $tipografia;
+    color: $colorTitulo;
+}
