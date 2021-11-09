@@ -296,9 +296,7 @@ header{
     text-align: center;
 }
 .fotoSobreMi1 {
-    height: 25rem;
-    width: 20rem;
-    margin: 2rem 0;
+    width: 45rem; 
 }
 
 .sobreMi2 {
@@ -310,8 +308,7 @@ header{
 }
 
 .fotoCemic {
-    height: 15rem;
-    width: 25rem;
+    width: 30rem;
 }
 
 .sobreMi3 {
@@ -322,9 +319,7 @@ header{
 }
 
 .garrahan {
-    height: 25rem;
-    width: 20rem;
-    margin: 2rem 0;
+    width: 38rem;
 }
 
 /* CSS PAGINA PLANES DE ALIMENTACIÓN */
@@ -752,8 +747,7 @@ header{
         margin: 1rem;
     }
     .fotoSobreMi1 {
-        height: 18rem;
-        width: 15rem;
+        width: 19rem;
     }
 }
 
@@ -764,11 +758,24 @@ header{
         height: auto;
     }
     .textoSobreMi {
-        margin: 1rem;
+        margin: 2rem;
         font-size: 17px;
+        align-self: center;
+    }
+
+    .fotoSobreMi1 {
+        width: 30rem;
     }
 }
 
+@media (min-width:1000px) and (max-width: 1450px) {
+    .sobreMi1{
+        height: auto;
+    }
+    .fotoSobreMi1 {
+        width: 40rem;
+    }
+}
 /*CELULARES PLANES DE ALIMENTACIÓN*/ 
 
 @media only screen and (max-width: 480px){
