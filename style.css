@@ -587,7 +587,6 @@ header{
     background-color: #223843;
     border: none;
     border-bottom: solid 1px white;
-    padding: 0.6rem;
 }
 
 .reservas input:focus {
@@ -608,26 +607,8 @@ header{
     color: white;
 }
 
-.mapa1 {
-    align-self: center;
-    width: 25rem;
-}
-
-.mapa1 h2 {
-    background-color: #fff1e6;
-    color: #223843;
-    margin-bottom: 2rem;
-    font-size: 30px;
-}
-
 .h2Consultorio {
     margin-top: 3rem;
-}
-
-.mapa1 p {
-    text-align: center;
-    font-size: 17px;
-    margin-top: 1rem;
 }
 
 /*CSS PAGINA DE RECETAS*/ 
