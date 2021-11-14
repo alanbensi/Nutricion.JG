@@ -698,8 +698,11 @@ header{
         width: 290px;
         height: 190px;
     }
-    .contenedorServicios:hover{
-        transform: scale(1.1);
+    .contenedorServicios:hover .textoDelServicio {
+        margin-top: 0;
+    }
+    .clicMasInfo {
+        display: none;
     }
     .contenedorContacto {
         margin: 2px;
@@ -746,8 +749,11 @@ header{
     .contenedorServicios {
         margin: 1rem;
     }
-    .contenedorServicios:hover{
-        transform: scale(1.1);
+    .contenedorServicios:hover .textoDelServicio {
+        margin-top: 0;
+    }
+    .clicMasInfo {
+        display: none;
     }
     .mapaConsultorio{
         width: 300px;
