@@ -640,6 +640,22 @@ header{
     width: 400px;
 }
 
+/* MEDIA QUERY NAVBAR  */
+
+@media only screen and (max-width:991px){
+    .linksNavegacion {
+        background-color: none;
+        border-radius: 0;
+        width: 100%;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        text-align: center;
+    }
+    #ancorNav {
+        width: 100%;
+    } 
+}
 
 /*MEDIA QUERY CELULARES INDEX */
 
