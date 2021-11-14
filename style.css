@@ -476,8 +476,8 @@ header{
 }
 
 .fotoAntro {
-    width: 25rem;
-    height: 15rem;
+    width: 45rem;
+    height: 25rem;
 }
 
 .antroFotoADerecha {
@@ -489,7 +489,7 @@ header{
 }
 
 .fotoGrasa {
-    width: 25rem;
+    width: 40rem;
     margin-left: 2rem;
 }
 
@@ -498,7 +498,7 @@ header{
 }
 
 .fotoMusculo {
-    width: 25rem;
+    width: 40rem;
     margin-right: 2rem;
 }
 
