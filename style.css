@@ -233,15 +233,27 @@ header{
     cursor: pointer;
 }
 
-.contenedorServicios:hover{
-    transform: scale(1.3);
-    transition: 2s;
-}
-
 .contenedorServicios a {
     text-decoration: none;
     color: black;
 }
+
+.contenedorServicios .clicMasInfo {
+    opacity: 0;
+}
+
+.contenedorServicios:hover .textoDelServicio {
+    margin-top: 40px;
+    transition: all 1.1s ease-out;
+}
+.contenedorServicios:hover .clicMasInfo{
+    opacity: 1;
+    max-width: 270px;
+    margin: auto;
+    font-size: 15px;
+    transition: all 1.1s ease-out;
+}
+
 
 .imgServicios{
     width: 100%;
@@ -260,11 +272,12 @@ header{
     border-radius: 6px;
 }
 
-.capaIndex p {
+.textoDelServicio {
     font-family: 'Mate SC', serif;
     margin-top: 80px;
     font-size: 25px;
 }
+
 
 /*Contacto*/ 
 
