@@ -75,6 +75,7 @@ h6 {
     color: #fff1e6;
 }
 
+
 p {
     font-family: 'Hind Vadodara', sans-serif;
     font-size: 20px;
@@ -93,6 +94,8 @@ footer {
     padding: 0;
     width: 100%;
 }
+
+/* LISTO */
 
 /*Barra de navegacion*/
 
@@ -125,7 +128,7 @@ header{
 
 #ancorNav:hover {
     color: #ff0a54; 
-    transition: 0.8s;
+    transition: 1s;
 }
 
 .logoPrincipal {
@@ -287,10 +290,6 @@ header{
 
 .contenedorContacto {
     width: 100%;
-}
-.tituloConsultorio {
-    background-color: #fff1e6;
-    color: #223843;
 }
 
 .mapaConsultorio{
