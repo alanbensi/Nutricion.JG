@@ -1,10 +1,98 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
+#ancorNav {
+  text-decoration: none;
+  color: black;
+}
+
+#ancorNav:hover {
+  color: #ff0a54;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: radial-gradient(circle, #fff1e6 10%, #e8dbc8 87%);
+  width: 100%;
+}
+
+.linksNavegacion {
+  background-color: #e8dbc8;
+  border-radius: 30px;
+  width: 60%;
+  -webkit-box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.6);
+  box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.6);
+  list-style: none;
+  margin-right: 5rem;
+}
+
+#ancorNav {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+.logoPrincipal {
+  border-radius: 8px;
+  height: 60px;
+  width: 7rem;
+  margin-left: 2rem;
+}
+
+footer {
+  background-color: #223843;
+  color: white;
+}
+
 body {
   background-color: #fff1e6;
+}
+
+h1 {
+  font-family: 'Mate SC', serif;
+  font-size: 50px;
+  text-align: center;
+  color: #223843;
+  width: 100%;
+  background-color: none;
+}
+
+h2, h3, h4 {
+  font-family: 'Mate SC', serif;
+  font-size: 40px;
+  text-align: center;
+  color: #fff1e6;
+  width: 100%;
+  background-color: #223843;
+}
+
+h5, h6 {
+  font-family: 'Mate SC', serif;
+  font-size: 30px;
+  text-align: center;
+  color: #fff1e6;
+  width: 100%;
+  background-color: #223843;
+}
+
+main {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  width: 100%;
+}
+
+.navbar {
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */
