@@ -64,5 +64,8 @@
 
 .otrosServiciosCaja {
     max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    width: $width;
 }
 
