@@ -440,4 +440,64 @@ main {
           align-items: center;
   margin: 2rem 0;
 }
+
+/*CSS PAGINA ANTROPOMETRIAS*/
+.tituloAntropometria {
+  margin-top: 5rem;
+}
+
+.antroFotoIzquierda {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.fotoAntro {
+  width: 45rem;
+  height: 25rem;
+  margin-bottom: 2rem;
+}
+
+.antroFotoADerecha {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.fotoGrasa, .fotoMusculo {
+  width: 40rem;
+  margin: 2rem 0;
+}
+
+.tituloMasaMuscular {
+  margin-bottom: 3rem;
+}
+
+.textosAntro {
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.textoMasaMuscular {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
 /*# sourceMappingURL=main.css.map */
