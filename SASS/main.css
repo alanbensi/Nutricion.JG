@@ -1,11 +1,12 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
-#ancorNav, .contenedorServicios a {
+#ancorNav, .contenedorServicios a, .listaDePlanes ul li, .otrosServicios a {
   text-decoration: none;
   color: black;
 }
 
-#ancorNav:hover, .contenedorServicios p:hover {
+#ancorNav:hover, .contenedorServicios p:hover, .otrosServicios a p:hover {
   color: #ff0a54;
   -webkit-transition: 1s;
   transition: 1s;
@@ -284,6 +285,7 @@ main {
   right: 0;
 }
 
+/*CSS PAGINA SOBRE MI*/
 .titPagSobreMi {
   margin-top: 5rem;
 }
@@ -351,5 +353,91 @@ main {
 .garrahan {
   width: 38rem;
   margin-bottom: 2rem;
+}
+
+/* CSS PAGINA PLANES DE ALIMENTACIÓN */
+.titPlanes {
+  margin-top: 5rem;
+}
+
+.planesSeccion1, .planesSeccion3 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.juliAtendiendo {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+.textosPlanes {
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.listaDePlanes ul li {
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+  list-style: none;
+}
+
+.planesSeccion2, .planesSeccion4 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.planesImg2, .planesImg3, .planesImg4 {
+  width: 35rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.h3Consultorio {
+  margin-top: 2rem;
+}
+
+.mapaConsultorio2 {
+  width: 100%;
+  height: 400px;
+}
+
+.textoMapa {
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+}
+
+.otrosServicios {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
 }
 /*# sourceMappingURL=main.css.map */
