@@ -1,0 +1,43 @@
+/* CELULAR ANTROPOMETRIA*/ 
+
+@media only screen and (max-width: 480px) {
+    .tituloAntropometria {
+        font-size: 35px;
+    }
+    .fotoAntro, .fotoGrasa, .fotoMusculo {
+        @include AnchoAlto (20rem,13rem);
+        margin-bottom: 0;
+    } 
+    .textosAntro{
+        font-size: 17px;
+        margin-bottom: 2rem;
+    }
+    .tituloMasaMuscular {
+        margin-bottom: 1rem;
+    }
+    .antroFotoIzquierda, .antroFotoADerecha {
+        padding-left: 1.5rem;
+    }
+}
+
+/*TABLET ANTROPOMETRIA*/
+
+@media (min-width:481px) and (max-width: 1023px) {
+    .tituloAntropometria {
+        font-size: 45px;
+    }
+    .fotoAntro, .fotoGrasa, .fotoMusculo {
+        @include AnchoAlto (28rem,18rem);
+        margin-bottom: 0;
+    } 
+    .textosAntro{
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    .tituloMasaMuscular {
+        margin-bottom: 1rem;
+    }
+    .antroFotoIzquierda, .antroFotoADerecha {
+        padding-left: 1.5rem;
+    }
+}
