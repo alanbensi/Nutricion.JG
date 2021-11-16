@@ -1,0 +1,41 @@
+.titPagSobreMi {
+    margin-top: 5rem;
+}
+
+.porQueNutricion {
+    margin-top: $margin-top;
+}
+
+.sobreMi1 {
+    @include flexbox (row);
+    @include AnchoAlto (100%,80vh);
+}
+
+.textoSobreMi {
+    @include textos (20px);
+}
+
+.fotoSobreMi1 {
+    width: 45rem;
+}
+
+.sobreMi2 {
+    @include flexbox (row-reverse);
+    margin-top:$margin-top;
+    width: $width;
+}
+
+.fotoCemic {
+    width: 30rem;
+}
+
+.sobreMi3 {
+    @include flexbox (row);
+    margin-top: $margin-top;
+    width: $width;
+}
+
+.garrahan {
+    width: 38rem;
+    margin-bottom: 2rem;
+}

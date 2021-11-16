@@ -258,6 +258,7 @@ main {
 .mapaConsultorio {
   width: 500px;
   height: 400px;
+  margin: 2rem 0;
 }
 
 .direccionConsultorio {
@@ -281,5 +282,74 @@ main {
   position: fixed;
   bottom: 5%;
   right: 0;
+}
+
+.titPagSobreMi {
+  margin-top: 5rem;
+}
+
+.porQueNutricion {
+  margin-top: 2rem;
+}
+
+.sobreMi1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.textoSobreMi {
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+}
+
+.fotoSobreMi1 {
+  width: 45rem;
+}
+
+.sobreMi2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.fotoCemic {
+  width: 30rem;
+}
+
+.sobreMi3 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.garrahan {
+  width: 38rem;
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
