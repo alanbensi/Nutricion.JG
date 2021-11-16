@@ -34,11 +34,6 @@
     align-items: center;
 }
 
-@mixin responsive ($minimoAncho, $maximoAncho) {
-    min-width: $minimoAncho;
-    max-width: $maximoAncho;
-}
-
 %estilosListas {
     text-decoration: none;
     color: black;

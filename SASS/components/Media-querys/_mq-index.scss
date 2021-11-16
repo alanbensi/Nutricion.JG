@@ -42,8 +42,9 @@
     .sobreMiImg {
         margin: 2px;
     }
-    .sobreMiTexto {
+    .sobreMiTexto, .textoMapa {
         font-size: 16px;
+        margin-bottom: 2rem;
     }
     .fotoNutricionista {
         width: 19rem;
@@ -74,3 +75,44 @@
         width: 5.5rem;
     }
 }
+
+/*MEDIA QUERY TABLET INDEX*/
+
+@media (min-width:481px) and (max-width: 1300px) {
+    .logoPrincipal{
+        @include AnchoAlto (6rem,50px)
+    }
+    .seccionCarrusel{
+    margin-top: $margin-top;
+    } 
+    .titulosImagenFondo {
+        font-size: 30px;
+    }
+    .botonFondo1{
+        padding: 0.2rem 1rem;
+        font-size: 12px;
+    }
+    .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto, .fondosIndex{
+        height: auto;
+    }
+    .tituloFondo {
+        height: 5rem;
+    }
+    .sobreMiTexto, .textoMapa {
+        font-size: 18px;
+        margin: 2rem 0;
+    }
+    .contenedorServicios {
+        margin: 1rem 10px;
+    }
+    .contenedorServicios:hover .textoDelServicio {
+        margin-top: none;
+    }
+    .clicMasInfo {
+        display: none;
+    }
+    .mapaConsultorio{
+        @include AnchoAlto (300px,250px);
+    }
+}
+
