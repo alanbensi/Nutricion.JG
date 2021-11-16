@@ -500,4 +500,46 @@ main {
       -ms-grid-row-align: center;
       align-self: center;
 }
+
+/*CSS PAGINA TALLERES DE ALIMENTACIÓN*/
+.tituloTalleres {
+  margin-top: 5rem;
+}
+
+.talleresFotoIzquierda {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+.imgTalleres1, .imgTalleres2, .imgTalleres3 {
+  width: 40rem;
+}
+
+.talleresFotoDerecha {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+.textosTalleres {
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
