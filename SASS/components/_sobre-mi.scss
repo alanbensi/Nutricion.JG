@@ -17,7 +17,7 @@
     @include textos (20px);
 }
 
-.fotoSobreMi1 {
+.fotoSobreMi1{
     width: 45rem;
 }
 
@@ -27,17 +27,12 @@
     width: $width;
 }
 
-.fotoCemic {
-    width: 30rem;
-}
-
 .sobreMi3 {
     @include flexbox (row);
     margin-top: $margin-top;
     width: $width;
 }
-
-.garrahan {
-    width: 38rem;
+.fotoCemic, .garrahan {
+    width: 37rem;
     margin-bottom: 2rem;
 }
