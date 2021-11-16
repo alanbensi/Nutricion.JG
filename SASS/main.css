@@ -619,4 +619,32 @@ main {
   background-color: white;
   border-radius: 50px;
 }
+
+/*CSS PAGINA DE RECETAS*/
+.tituloRecetas {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.recetasParteIzquierda {
+  margin: 2rem 0;
+}
+
+.videoPanIntegral, .videoPizzaZanahoria {
+  width: 400px;
+  height: 300px;
+}
+
+.recetasParteDerecha {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+/*CSS PAGINA DE RECETAS*/
+
+.tituloRecetas {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.recetasParteIzquierda {
+    margin: 2rem 0;
+}
+
+.videoPanIntegral, .videoPizzaZanahoria {
+    @include AnchoAlto (400px,300px);
+}
+
+.recetasParteDerecha {
+    @include flexbox (row-reverse);
+    margin: 2rem 0;
+}
