@@ -95,4 +95,60 @@ main {
 .navbar {
   padding: 0;
 }
+
+/*CSS DEL INDEX DE LA PAGINA*/
+/* Titulo principal con imagen de fondo*/
+.seccionCarrusel {
+  margin-top: 2rem;
+}
+
+.fondosIndex {
+  height: 96vh;
+  background: no-repeat;
+  background-size: cover;
+}
+
+.fondosIndex::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.4;
+}
+
+.tituloFondo {
+  margin-bottom: 2rem;
+}
+
+.titulosImagenFondo {
+  font-family: 'Mate SC', serif;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  background-color: none;
+}
+
+.botonFondo1 {
+  background-color: salmon;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 20px;
+  border: black solid 2px;
+  font-size: 15px;
+}
+
+/*Seccion sobre mi*/
+.seccionSobreMi {
+  padding: 0;
+}
+
+.tituloSobreMi {
+  margin-top: 2rem;
+}
 /*# sourceMappingURL=main.css.map */

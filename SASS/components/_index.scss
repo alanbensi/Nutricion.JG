@@ -1,0 +1,52 @@
+/*CSS DEL INDEX DE LA PAGINA*/
+
+/* Titulo principal con imagen de fondo*/
+
+.seccionCarrusel {
+    margin-top: $margin-top;
+}
+
+.fondosIndex {
+    height: 96vh;
+    background: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.fondosIndex::before {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.4;
+}
+
+.tituloFondo{
+    margin-bottom: 2rem;
+}
+
+.titulosImagenFondo {
+    @include titulosPrincipales (40px, white, none)
+}
+
+.botonFondo1 {
+    @include botones (15px)
+}
+
+/*Seccion sobre mi*/
+
+.seccionSobreMi {
+    padding: $padding;
+}
+
+.tituloSobreMi {
+    margin-top: $margin-top;
+}
+
+.sobreMiImg {
+
+}
