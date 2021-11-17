@@ -773,6 +773,25 @@ main {
   }
 }
 
+@media (min-width: 991px) and (max-width: 1149px) {
+  .fotoNutricionista {
+    width: 31rem;
+  }
+}
+
+@media (min-width: 1149px) and (max-width: 1300px) {
+  .fotoNutricionista {
+    width: 35rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1440px) {
+  .fotoNutricionista {
+    width: 40rem;
+    height: 28rem;
+  }
+}
+
 /*CELULARES SOBRE MI*/
 @media only screen and (max-width: 480px) {
   .sobreMi1, .sobreMi2, .sobreMi3 {

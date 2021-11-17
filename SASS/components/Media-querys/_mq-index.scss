@@ -116,3 +116,27 @@
     }
 }
 
+@media (min-width:991px) and (max-width: 1149px){
+    .fotoNutricionista {
+        width: 31rem;
+    }
+}
+
+@media (min-width:1149px) and (max-width: 1300px){
+    .fotoNutricionista {
+        width: 35rem;
+    }
+}
+
+@media (min-width:1300px) and (max-width: 1440px){
+    .fotoNutricionista {
+        width: 40rem;
+        height: 28rem;
+    }
+}
+
+// @media (min-width:1301px) and (max-width: 1439px){
+//     .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto, .fondosIndex{
+//         height: auto;
+//     }
+// }
