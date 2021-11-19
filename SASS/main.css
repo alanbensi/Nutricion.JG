@@ -306,10 +306,6 @@ main {
   text-align: center;
 }
 
-.capaIndex {
-  visibility: hidden;
-}
-
 /*CSS PAGINA SOBRE MI*/
 .titPagSobreMi {
   margin-top: 5rem;
@@ -761,9 +757,6 @@ main {
   }
   .placeholderFooter {
     margin-bottom: 1.5rem;
-  }
-  .capaIndex:focus {
-    visibility: inherit;
   }
 }
 
