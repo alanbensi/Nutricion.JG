@@ -110,6 +110,7 @@ main {
 
 .parrafoModal {
   color: black;
+  text-align: center;
 }
 
 .tituloModal {
@@ -635,6 +636,11 @@ main {
 ::-webkit-calendar-picker-indicator {
   background-color: white;
   border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.botonEnviarForm {
+  width: 50%;
 }
 
 /*CSS PAGINA DE RECETAS*/

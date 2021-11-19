@@ -81,7 +81,30 @@
                     <label for="Hora"> Horario: </label>
                     <input type="time" name="Hora">
                     <label for="Enviar"> </label>
-                    <input type="submit" name="Enviar">
+                    <button type="button" class="btn btn-outline-light mb-4 botonEnviarForm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Enviar
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title tituloModal" id="exampleModalLabel">Esta funcion no esta disponible actualmente.</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="parrafoModal"> Podés comunicarte a través de Whatsapp directamente. <br> Disculpas por las molestias causadas. <br> Gracias! </p> 
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn botonModalWhatsapp">
+                                        <a target="_blank" class="pieDePagina" href="https://wa.me/+5491124028206?text= Hola Juliana! Quería más información acerca de">
+                                            <img src="Imagenes/Boton Whatsapp.png" loading="lazy" alt="Boton Whatsapp" class="botonModalWhatsapp">
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="col-12 col-lg-6">
