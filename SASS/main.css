@@ -752,6 +752,12 @@ main {
   .botonWhatsapp {
     width: 5.5rem;
   }
+  .textoFooterDescuentos {
+    padding-bottom: 1rem;
+  }
+  .placeholderFooter {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /*MEDIA QUERY TABLET INDEX*/
@@ -792,6 +798,12 @@ main {
   .mapaConsultorio {
     width: 300px;
     height: 250px;
+  }
+  .textoFooterDescuentos {
+    padding-bottom: 1rem;
+  }
+  .placeholderFooter {
+    margin-bottom: 1.5rem;
   }
 }
 
