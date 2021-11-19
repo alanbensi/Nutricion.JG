@@ -80,6 +80,9 @@
     .placeholderFooter {
         margin-bottom: 1.5rem;
     }
+    .capaIndex:focus {
+        visibility: inherit;
+    }
 }
 
 /*MEDIA QUERY TABLET INDEX*/
@@ -146,9 +149,3 @@
         height: 28rem;
     }
 }
-
-// @media (min-width:1301px) and (max-width: 1439px){
-//     .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto, .fondosIndex{
-//         height: auto;
-//     }
-// }
