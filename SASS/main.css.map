@@ -13,7 +13,7 @@
         "components/_antropometrias.scss",
         "components/_talleres-de-alimentacion.scss",
         "components/_reserva_tu_turno.scss",
-        "components/_recetas.scss",
+        "components/beneficios.scss",
         "components/Media-querys/_mq-index.scss",
         "components/Media-querys/_mq-sobre-mi.scss",
         "components/Media-querys/_mq-planes-de-alimentacion.scss",
