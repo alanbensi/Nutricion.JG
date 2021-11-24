@@ -127,13 +127,13 @@ main {
   margin-top: 2rem;
 }
 
-.seccionCarrusel .fondosIndex {
+.fondosIndex {
   height: 96vh;
   background: no-repeat;
   background-size: cover;
 }
 
-.seccionCarrusel .fondosIndex::before {
+.fondosIndex::before {
   content: "";
   display: block;
   position: absolute;
@@ -145,7 +145,7 @@ main {
   opacity: 0.4;
 }
 
-.seccionCarrusel .fondosIndex .tituloFondo {
+.tituloFondo {
   margin-bottom: 2rem;
 }
 
@@ -733,12 +733,6 @@ main {
   .seccionCarrusel {
     margin-top: 4rem;
   }
-  .seccionCarrusel .fondosIndex {
-    height: auto;
-  }
-  .seccionCarrusel .fondosIndex .tituloFondo {
-    height: 5rem;
-  }
   .titulosImagenFondo {
     font-size: 30px;
     background-color: none;
@@ -748,8 +742,11 @@ main {
     font-size: 12px;
     margin-bottom: 1rem;
   }
-  .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto {
+  .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto, .fondosIndex {
     height: auto;
+  }
+  .tituloFondo {
+    height: 5rem;
   }
   .sobreMiImg {
     margin: 2px;
