@@ -829,8 +829,7 @@ main {
     display: none;
   }
   .mapaConsultorio {
-    width: 300px;
-    height: 250px;
+    padding-left: 2rem;
   }
   .textoFooterDescuentos {
     padding-bottom: 1rem;
