@@ -659,15 +659,24 @@ main {
   padding-bottom: 2rem;
 }
 
-.recetasParteIzquierda {
+.comoTrabajoParteIzquierda {
   margin: 2rem 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.videoPanIntegral, .videoPizzaZanahoria {
+.fotoAtencionOnline, .fotoAtencionDomicilio, .fotoOtrosBeneficios {
   width: 35rem;
 }
 
-.recetasParteDerecha {
+.comoTrabajoParteDerecha {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -692,6 +701,10 @@ main {
 .listaBeneficios li {
   margin-top: 1rem;
   font-weight: 400;
+}
+
+.textosComoTrabajo {
+  font-size: 17px;
 }
 
 /* MEDIA QUERY NAVBAR  */
