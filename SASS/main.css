@@ -127,13 +127,13 @@ main {
   margin-top: 2rem;
 }
 
-.fondosIndex {
+.seccionCarrusel .fondosIndex {
   height: 96vh;
   background: no-repeat;
   background-size: cover;
 }
 
-.fondosIndex::before {
+.seccionCarrusel .fondosIndex::before {
   content: "";
   display: block;
   position: absolute;
@@ -145,7 +145,7 @@ main {
   opacity: 0.4;
 }
 
-.tituloFondo {
+.seccionCarrusel .fondosIndex .tituloFondo {
   margin-bottom: 2rem;
 }
 
@@ -303,6 +303,10 @@ main {
 .textoMapa {
   font-size: 20px;
   font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+}
+
+#form5Example21 {
   text-align: center;
 }
 
@@ -609,11 +613,12 @@ main {
   margin-top: 1rem;
   background-color: #223843;
   border-radius: 30px;
+  position: relative;
 }
 
 .reservas input {
   width: 60%;
-  height: 1.5rem;
+  height: auto;
   font-family: 'Hind Vadodara', sans-serif;
   color: white;
   background-color: #223843;
@@ -648,8 +653,8 @@ main {
   width: 50%;
 }
 
-/*CSS PAGINA DE RECETAS*/
-.tituloRecetas {
+/*CSS PAGINA DE BENEFICIOS*/
+.tituloComoTrabajo {
   padding-top: 5rem;
   padding-bottom: 2rem;
 }
@@ -659,8 +664,7 @@ main {
 }
 
 .videoPanIntegral, .videoPizzaZanahoria {
-  width: 400px;
-  height: 300px;
+  width: 35rem;
 }
 
 .recetasParteDerecha {
@@ -674,6 +678,20 @@ main {
       -ms-flex-align: center;
           align-items: center;
   margin: 2rem 0;
+}
+
+.contenedorBeneficios {
+  margin: 2rem 0;
+}
+
+.listaBeneficios {
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.listaBeneficios li {
+  margin-top: 1rem;
+  font-weight: 400;
 }
 
 /* MEDIA QUERY NAVBAR  */

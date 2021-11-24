@@ -4,30 +4,30 @@
 
 .seccionCarrusel {
     margin-top: $margin-top;
+    .fondosIndex {
+        height: 96vh;
+        background: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        &::before {
+            content:"";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: black;
+            opacity: 0.4;
+        }
+        .tituloFondo{
+            margin-bottom: 2rem;
+        }
+    }
 }
 
-.fondosIndex {
-    height: 96vh;
-    background: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
 
-.fondosIndex::before {
-    content:"";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: black;
-    opacity: 0.4;
-}
 
-.tituloFondo{
-    margin-bottom: 2rem;
-}
 
 .titulosImagenFondo {
     @include titulosPrincipales (40px, white, none)
@@ -142,4 +142,8 @@
 
 .textoMapa{
     @include textos (20px);
+}
+
+#form5Example21 {
+    text-align: center;
 }

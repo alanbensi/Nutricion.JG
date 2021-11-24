@@ -45,20 +45,103 @@
         </nav>
     </header>
     <main>
-        <h1 class="tituloRecetas">¿Cómo trabajo?</h1>
+        <a name="atencionOnline"></a>
+        <h1 class="tituloComoTrabajo">¿Cómo trabajo?</h1>
         <section>
             <h2 class="titulos">Atención online</h2>
             <div class="row d-flex justify-content-evenly recetasParteIzquierda">
                 <img src="Imagenes/online index.JPG" loading="lazy" alt="Servicio de Consultas Online" class="videoPanIntegral">
-                <p class="col-12 col-lg-6">La tecnología nos permite mantenernos cerca a pesar de encontrarnos a miles de kilómetros de distancia. Si hacer coincidir tu rutina con el turno presencial se vuelve un caos, tenés que saber que la alternativa online siempre esta presente. De esta forma podrás conectarte desde tu casa, el trabajo, vacaciones, etc y poder seguir cuidando tu alimentación estes donde estes.
-                </p>
+                <p class="col-12 col-lg-6">La tecnología nos permite mantenernos cerca a pesar de encontrarnos a miles de kilómetros de distancia. Si hacer coincidir tu rutina con el turno presencial se vuelve un caos, tenés que saber que la alternativa online siempre esta presente. De esta forma podrás conectarte desde tu casa, el trabajo, vacaciones, etc y poder seguir cuidando tu alimentación estes donde estes.</p>
             </div>
         </section>
-        <section>
+        <section id="atencionDomicilio">
             <h2 class="titulos">Atención a domicilio</h2>
             <div class="row d-flex justify-content-evenly recetasParteDerecha">
                 <img src="Imagenes/domicilio index.JPG" loading="lazy" alt="Servicio de atención a domicilio" class="videoPizzaZanahoria">
                 <p class="col-12 col-lg-6"> La opción de atención a domicilio surge de la necesidad de poder ayudar a todos aquellos que no tienen la posibilidad de acudir al consultorio, presentándoles la alternativa de acercarme a sus hogares. <br> Estos encuentros nos permitirán conocernos, hacer una anamnesis completa y crear un plan de alimentación 100% adecuado a cada paciente. Quienes lo deseen, también podrán realizarse mediciones antropométricas.</p>
+            </div>
+        </section>
+        <section id="otrosBeneficios">
+            <h2 class="titulos">Otros beneficios</h2>
+            <div class="row d-flex justify-content-evenly contenedorBeneficios">
+                <img src="Imagenes/foto compu mano.JPG" loading="lazy" alt="Servicio de atención a domicilio" class="videoPanIntegral">
+                <div class="col-12 col-lg-6">
+                <p> Mi principal objetivo es que te decidas a mejorar tu alimentación y que de esta forma logres concretar tus metas. Para esto, trato de adaptarme 100% a tus necesidades y de brindarte la mejor atención y servicio posible. El mismo, consta de los siguientes beneficios: </p>
+                <ul class="listaBeneficios">
+                    <li> <strong>Diferentes modalidades de atención</strong> (Presencial, virtual, en consultorio y a domicilio).</li>
+                    <li><strong> Amplia disponibilidad horaria </strong> (De 9 a 20 horas).</li>
+                    <li>Atención y plan de alimentacion <strong> 100% personalizado</strong>, adaptado a tus objetivos, horarios, gustos y habitos.</li>
+                    <li><strong>Seguimiento permanente </strong>via Whatsapp para responder dudas al momento.</li>
+                    <li>2 Recetarios <strong>GRATIS </strong> incluidos con la reserva del turno (Más de 20 recetas saludables para todas tus comidas).</li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <!-- RESERVA TU TURNO -->
+
+        <h3 class="tituloReserva titulos"> Empezá hoy el cambio, reserva tu turno</h3>
+        <section class="row d-flex justify-content-evenly contenedorReservas">
+            <div class="col-12 col-lg-6 cajaReservas">
+                <form action="archivo.php" method="POST" class="reservas">
+                    <label for="Nombre"> Nombre: </label>
+                    <input type="text" name="Nombre">
+                    <label for="Apellido"> Apellido: </label>
+                    <input type="text" name="Apellido">
+                    <label for="Mail"> Mail: </label>
+                    <input type="email" name="Mail">
+                    <label for="Telefono"> Telefono: </label>
+                    <input type="tel" name="Telefono">
+                    <label for="Servicio"> Elegí el servicio: </label>
+                    <input list="Servicio" name="Servicio">
+                    <datalist id="Servicio">
+                        <option value="Plan de alimentación">
+                        <option value="Antropometría">
+                        <option value="Taller de alimentación">
+                    </datalist>
+                    <label for="Modalidad"> Elegí la modalidad: </label>
+                    <input list="browsers" name="Modalidad" id="browser">
+                    <datalist id="browsers">
+                        <option value="Presencial">
+                        <option value="Virtual">
+                        <option value="A domicilio">
+                    </datalist>
+                    <label for="Dia"> Dia:  </label>
+                    <input type="date" name="Dia">
+                    <label for="Hora"> Horario: </label>
+                    <input type="time" name="Hora">
+                    <label for="Enviar"> </label>
+                    <button type="button" class="btn btn-outline-light mb-4 botonEnviarForm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Enviar
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title tituloModal" id="exampleModalLabel">Esta funcion no esta disponible actualmente.</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="parrafoModal"> Podés pedir tu turno directamente a través de Whatsapp. <br> Disculpas por las molestias causadas. <br> Gracias! </p> 
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn botonModalWhatsapp">
+                                        <a target="_blank" class="pieDePagina" href="https://wa.me/+5491124028206?text= Hola Juliana! Quería pedir un turno de ">
+                                            <img src="Imagenes/Boton Whatsapp.png" loading="lazy" alt="Boton Whatsapp" class="botonModalWhatsapp">
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h3 class="titulos h3Consultorio">Consultorio:</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9966672702735!2d-58.53884279797884!3d-34.57895088139242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb776c10a751f%3A0xdb2ac8a876043fa1!2sBelgrano%203953%2C%20San%20Mart%C3%ADn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1633394813154!5m2!1ses-419!2sar"style="border:0;" allowfullscreen="" loading="lazy" class="mapaConsultorio2">
+                </iframe>       
+                <p class="textoMapa"> <strong>Dirección: </strong>Belgrano 3953 (Localidad de San Martin) <br><br> <strong> Colectivos: </strong> 57, 78, 87, 161, 169, 176 <br><br> <strong>Trenes:</strong> A menos de 10 cuadras del Ferrocarril General Bartolomé Mitre (FCGBM) 
+                </p>
             </div>
         </section>
     </main>

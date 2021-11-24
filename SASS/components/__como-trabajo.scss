@@ -1,6 +1,5 @@
 /*CSS PAGINA DE BENEFICIOS*/
-
-.tituloRecetas {
+.tituloComoTrabajo {
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
@@ -10,10 +9,21 @@
 }
 
 .videoPanIntegral, .videoPizzaZanahoria {
-    @include AnchoAlto (400px,300px);
+    width: 35rem;
 }
 
 .recetasParteDerecha {
     @include flexbox (row-reverse);
     margin: 2rem 0;
+}
+.contenedorBeneficios {
+    margin: 2rem 0;
+}
+.listaBeneficios {
+    padding-left: 1rem;
+    margin-top: 1rem;
+    li{
+        margin-top: 1rem;
+        font-weight: 400;
+    }
 }
