@@ -312,11 +312,11 @@ main {
 
 /*CSS PAGINA SOBRE MI*/
 .titPagSobreMi {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .porQueNutricion {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .sobreMi1 {
@@ -373,6 +373,13 @@ main {
 
 .fotoCemic, .garrahan {
   width: 37rem;
+}
+
+.fotoCemic {
+  margin-top: 2rem;
+}
+
+.garrahan {
   margin-bottom: 2rem;
 }
 
@@ -555,6 +562,7 @@ main {
 
 .imgTalleres1, .imgTalleres2, .imgTalleres3 {
   width: 40rem;
+  margin-top: 2rem;
 }
 
 .talleresFotoDerecha {
