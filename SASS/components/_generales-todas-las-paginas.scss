@@ -44,12 +44,12 @@ header {
 .linksNavegacion {
     @extend %linksNav;
 }
-
-#ancorNav {
+#ancorNav1,#ancorNav2,#ancorNav3,#ancorNav4  {
     @extend %anchorNav;
-    &:hover {
-        @extend %hoverRojo;
-    }
+}
+
+#ancorNav1:hover,#ancorNav2:hover,#ancorNav3:hover,#ancorNav4:hover{
+    @extend %hoverRojo;
 }
 
 .logoPrincipal {

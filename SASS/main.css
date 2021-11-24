@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Assistant:wght@400;700&family=Hind+Vadodara:wght@400;600&family=Mate+SC&family=Poppins:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
-#ancorNav, .contenedorServicios a, .listaDePlanes ul li, .otrosServicios a {
+#ancorNav1, #ancorNav2, #ancorNav3, #ancorNav4, .contenedorServicios a, .listaDePlanes ul li, .otrosServicios a {
   text-decoration: none;
   color: black;
 }
 
-#ancorNav:hover, .contenedorServicios p:hover, .otrosServicios a p:hover {
+#ancorNav1:hover, #ancorNav2:hover, #ancorNav3:hover, #ancorNav4:hover, .contenedorServicios p:hover, .otrosServicios a p:hover {
   color: #ff0a54;
   -webkit-transition: 1s;
   transition: 1s;
@@ -35,7 +35,7 @@ header {
   margin-right: 5rem;
 }
 
-#ancorNav {
+#ancorNav1, #ancorNav2, #ancorNav3, #ancorNav4 {
   font-size: 18px;
   font-weight: 600;
   font-family: 'Hind Vadodara', sans-serif;
