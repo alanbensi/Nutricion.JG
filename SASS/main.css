@@ -885,6 +885,7 @@ main {
   }
   .fotoSobreMi1, .fotoCemic, .garrahan {
     width: 35rem;
+    margin-bottom: 0;
   }
   .textoSobreMi {
     font-size: 17px;
@@ -895,6 +896,9 @@ main {
 @media (min-width: 1001px) and (max-width: 1100px) {
   .sobreMi1, .sobreMi2, .sobreMi3 {
     height: auto;
+  }
+  .fotoSobreMi1, .fotoCemic, .garrahan {
+    margin-bottom: 0;
   }
   .textoSobreMi {
     font-size: 18px;
@@ -918,7 +922,6 @@ main {
   }
   .fotoSobreMi1, .fotoCemic, .garrahan {
     width: 35rem;
-    margin: 1rem;
   }
   .textoSobreMi {
     margin: 1.5rem 0;
