@@ -23,6 +23,12 @@
     }
     .seccionCarrusel {
         margin-top: 4rem;
+        .fondosIndex{
+            height: auto;
+            .tituloFondo {
+                height: 5rem;
+            }
+        }
     }
     .titulosImagenFondo {
         font-size: 30px;
@@ -33,11 +39,8 @@
         font-size: 12px;
         margin-bottom: 1rem;
     }
-    .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto, .fondosIndex{
+    .sobreMiImg, .fotoNutricionista, .sobreMiTexto, .seccionServicios, .contenedorContacto{
         height: auto;
-    }
-    .tituloFondo {
-        height: 5rem;
     }
     .sobreMiImg {
         margin: 2px;
