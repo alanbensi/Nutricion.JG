@@ -2,6 +2,7 @@
 
 .titPlanes {
     margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 .planesSeccion1, .planesSeccion3 {
@@ -35,8 +36,8 @@
     @include AnchoAlto (35rem,20rem);
 }
 
-.planesImg3 {
-    margin-bottom: 2rem;
+.planesImg3, .planesImg4 {
+    margin: 2rem 0;
 }
 
 .h3Consultorio {
